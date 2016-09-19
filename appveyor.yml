@@ -1,0 +1,5 @@
+install:
+- cinst msbuild.communitytasks
+
+build: off
+test: off
