@@ -1,5 +1,6 @@
 install:
 - cinst msbuild.communitytasks
+- choco install autohotkey.portable
 
 build: off
 test: off
