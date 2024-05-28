@@ -1,5 +1,7 @@
 install:
-- cinst msbuild.communitytasks
+# cinst deprecated
+#- cinst msbuild.communitytasks
+- choco install msbuild.communitytasks
 - choco install autohotkey.portable
 
 build: off
